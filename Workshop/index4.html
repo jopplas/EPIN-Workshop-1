@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+
+<head>
+    <title>My first styled page</title>
+
+    <style>
+    body, div, .box{
+    border: solid 3px black;
+}
+
+body, div{
+    padding: 10px;
+}
+
+body{
+    height: 100%;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+        </style>
+</head>
+
+
+
+<body>
+    <p>This is the body</p>
+    <div> <p>This is div 1</p><h2 class="box" style="
+      padding:20px;
+      position:relative;
+     ">
+      My first (relative) style h1 box
+        <div> <p>This is div 2</p>
+            <h3 class="box" style='
+            position:relative;
+            top:0px;
+            '>
+            
+            My second (absolute) styled h3 box</h3>
+            </div>
+    </h2>
+    </div>
+</body>
+
+</html>
